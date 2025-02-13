@@ -160,7 +160,7 @@
             if (doctor_name_f.trim() == "" || doctor_phone_f.trim() == "") {
                 alert("กรุณากรอกข้อมูลให้ถูกต้อง");
             } else {
-                const apiUrl = (edit_type_f=="new")?'https://231bn-sumaiyahmasaes-projects.vercel.app/getDoctors':"https://231bn-sumaiyahmasaes-projects.vercel.app/getDoctors";
+                const apiUrl = (edit_type_f=="new")?'https://231bn-sumaiyahmasaes-projects.vercel.app/addDoctor':"https://231bn-sumaiyahmasaes-projects.vercel.app/editDoctor";
                 
                 const data = {
                     doctor_id:doctor_ID_f,
